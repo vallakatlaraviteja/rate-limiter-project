@@ -1,0 +1,21 @@
+{
+  "name": "context-aware-rate-limiter",
+  "version": "1.0.0",
+  "description": "Context-aware rate limiter middleware - Nestack take-home assessment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "jest --forceExit"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
